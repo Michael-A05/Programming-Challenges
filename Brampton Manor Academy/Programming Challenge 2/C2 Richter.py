@@ -21,4 +21,5 @@ def run():
   print(f"Equivalence in Joules:{richtertojoules(richter)}")
   print(f"Equivalence in tons of TNT:{joulestotnt(richter)}")
 
-run()
+if __name__ = "__main__":
+  run()
