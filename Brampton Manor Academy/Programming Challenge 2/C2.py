@@ -17,9 +17,9 @@ for value in richtervalues:
 
 def run():
   richter = float(input("Please enter a Richter Scale value: "))
-  print(f"Richter value:{richter}")
-  print(f"Equivalence in Joules:{richtertojoules(richter)}")
-  print(f"Equivalence in tons of TNT:{joulestotnt(richter)}")
+  print(f"Richter value: {richter}")
+  print(f"Equivalence in Joules: {richtertojoules(richter)}")
+  print(f"Equivalence in tons of TNT: {joulestotnt(richter)}")
 
 
 if __name__ == '__main__':
