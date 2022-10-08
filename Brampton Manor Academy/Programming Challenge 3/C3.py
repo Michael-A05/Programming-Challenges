@@ -16,7 +16,6 @@ def calculation(answer):
 
 
 def run():
-  print('Hello Sentient\n')
   print('We are going to play a game.I want you to pick a number then do a series of calculations. I bet I know what the result of those calculations will be!\n')
   answer = int(input('*You* This will be the answer. Select a number between 10-49: '))
   value = calculation(answer)
