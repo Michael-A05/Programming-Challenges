@@ -21,14 +21,14 @@ def gettime(rods):
 
 def run():
   rods = float(input("Input rods: "))
-  print(f"Your Input: {rods}")
+  print(f"Your Input: {rods} rods.")
   print("")
   print("Conversions")
-  print(f" Meters:{getmeters(rods)}")
-  print(f" Feet:{getfeet(rods)}")
-  print(f" Miles:{getmiles(rods)}")
-  print(f" Feet:{getfeet(rods)}")
-  print(f" Time:{gettime(rods)}")
+  print(f"Meters: {getmeters(rods)}")
+  print(f"Feet: {getfeet(rods)}")
+  print(f"Miles: {getmiles(rods)}")
+  print(f"Feet: {getfeet(rods)}")
+  print(f"Time: {gettime(rods)}")
 
 if __name__ == '__main__':
     run()
